@@ -48,7 +48,7 @@ function Todo() {
     <>
       <div className="container m-4">
         <form name='todo' className='todo' >
-          <input type="text" placeholder='Descreption' value={inputValue} ref={description} onChange={handleInputChange} />
+          <input type="text" placeholder='Descreption' value={inputValue}  onChange={handleInputChange} />
           <input type="date" name="date" id="date" value={dateValue} onChange={handleDateChange} />
           <input type="time" name="" id="" value={timeValue} onChange={handleTimeChange} />
           <button className='sub-btn' type='button' onClick={handleSubmit}>Add</button>

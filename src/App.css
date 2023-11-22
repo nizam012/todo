@@ -28,3 +28,66 @@ form input {
 .container table td {
     text-transform: capitalize;
 }
+
+.nav-bar {
+    background-color: black;
+    padding: 10px;
+}
+
+.nav-items ul {
+    list-style: none;
+}
+
+.nav-items ul a {
+    text-decoration: none;
+    color: white;
+    margin-right: 60px;
+}
+
+.dropdown {
+    color: rgb(0, 0, 0);
+    padding: 5px 0px;
+    margin-top: -20px;
+    margin-right: 10px !important;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1160px;
+    flex-direction: column;
+    list-style: none;
+
+}
+
+.main-dropdown {
+    position: absolute;
+    width: 100%;
+
+}
+
+.search-items a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    list-style: none;
+    border: 1px solid #ccc;
+    border-top: 0;
+    display: block;
+}
+
+.dropdown li {
+    padding: 8px;
+
+}
+
+.dropdown li:hover {
+    background-color: #f0f0f0;
+}
+
+.search input {
+    padding: 5px 5px;
+    border: none;
+    border-radius: 2px;
+}
